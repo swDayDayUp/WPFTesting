@@ -1,0 +1,51 @@
+﻿<Window x:Class="SEOTesting.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SEOTesting"
+        mc:Ignorable="d"
+        Title="Get Google SEO Result" Height="600" Width="1000" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <local:MainWindowViewModel x:Key="ViewModel" />
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="296*" />
+            <ColumnDefinition Width="205*" />
+            <ColumnDefinition Width="91*"/>
+        </Grid.ColumnDefinitions>
+        <GroupBox Grid.Row="0" Grid.Column="0" FontSize="14" FontWeight="Normal" Margin="0,0,0,5" Header="Search URL" >
+            <TextBox x:Name="txtSearchURL" Text="{Binding CurrentSEOSummary.TargetURL, Source={StaticResource ViewModel}, Mode=TwoWay}" FontSize="14"  ></TextBox>
+        </GroupBox>
+        <GroupBox Grid.Row="0" Grid.Column="1" FontSize="14" FontWeight="Normal" Margin="0,0,0,5" Header="Key Word" Grid.ColumnSpan="2" >
+            <TextBox x:Name="txtKeyWord" Text="{Binding CurrentSEOSummary.TargetKeyWordRegexPattern, Source={StaticResource ViewModel}, Mode=TwoWay}" FontSize="14"  ></TextBox>
+        </GroupBox>
+
+        <GroupBox Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" FontSize="14" FontWeight="Normal" Margin="0,0,0,5" Header="Search Result" >
+            <TextBox x:Name="txtSearchResult" Text="{Binding CurrentSEOSummary.SEOResultDisplay, Source={StaticResource ViewModel}, Mode=TwoWay}" FontSize="18"  ></TextBox>
+        </GroupBox>
+
+        <Button Grid.Row="4" Grid.Column="0"  x:Name="btnProcess" IsDefault="True"
+                Command="{Binding BtnProcessClickCommand, Source={StaticResource ViewModel}}"
+                Content="Search Result"  FontWeight="Normal" FontSize="20" Width="160" Height="80"  VerticalAlignment="Center"   BorderThickness="0" BorderBrush="Transparent"
+                ToolTip="Accept your search criteria and procced SEO result"  Margin="68,16,68,17">
+            
+        </Button>
+
+        <Button Grid.Row="4" Grid.Column="1"  Width="160" Height="80" FontWeight="Normal"  Margin="63,16,73,17" BorderThickness="0"  BorderBrush="Transparent"
+                Command="{Binding BtnExitClickCommand, Source={StaticResource ViewModel}}"                       
+                IsCancel="True" Content="Exit" FontSize="20"
+                ToolTip="Click to exit program" Grid.ColumnSpan="2">
+           
+        </Button>
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+C:\dev\SEOTesting\SEOTesting\bin\Release\SEOTesting.exe.config
+C:\dev\SEOTesting\SEOTesting\bin\Release\SEOTesting.exe
+C:\dev\SEOTesting\SEOTesting\bin\Release\SEOTesting.pdb
+C:\dev\SEOTesting\SEOTesting\obj\Release\MainWindow.g.cs
+C:\dev\SEOTesting\SEOTesting\obj\Release\App.g.cs
+C:\dev\SEOTesting\SEOTesting\obj\Release\SEOTesting_MarkupCompile.cache
+C:\dev\SEOTesting\SEOTesting\obj\Release\SEOTesting_MarkupCompile.lref
+C:\dev\SEOTesting\SEOTesting\obj\Release\MainWindow.baml
+C:\dev\SEOTesting\SEOTesting\obj\Release\SEOTesting.g.resources
+C:\dev\SEOTesting\SEOTesting\obj\Release\SEOTesting.Properties.Resources.resources
+C:\dev\SEOTesting\SEOTesting\obj\Release\SEOTesting.csproj.GenerateResource.cache
+C:\dev\SEOTesting\SEOTesting\obj\Release\SEOTesting.csproj.CoreCompileInputs.cache
+C:\dev\SEOTesting\SEOTesting\obj\Release\SEOTesting.exe
+C:\dev\SEOTesting\SEOTesting\obj\Release\SEOTesting.pdb

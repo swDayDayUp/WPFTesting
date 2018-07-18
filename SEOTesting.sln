@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEOTesting", "SEOTesting\SEOTesting.csproj", "{73FDA333-7E12-4793-B28C-1E16B180D9A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProjectSEO", "UnitTestProjectSEO\UnitTestProjectSEO.csproj", "{225A9A91-9B46-4EEE-9729-61F60C7C6D8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73FDA333-7E12-4793-B28C-1E16B180D9A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73FDA333-7E12-4793-B28C-1E16B180D9A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73FDA333-7E12-4793-B28C-1E16B180D9A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73FDA333-7E12-4793-B28C-1E16B180D9A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{225A9A91-9B46-4EEE-9729-61F60C7C6D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{225A9A91-9B46-4EEE-9729-61F60C7C6D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{225A9A91-9B46-4EEE-9729-61F60C7C6D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{225A9A91-9B46-4EEE-9729-61F60C7C6D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AC95619-1F75-4BAF-91E8-CA2FE593E266}
+	EndGlobalSection
+EndGlobal
